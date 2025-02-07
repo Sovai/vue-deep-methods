@@ -1,0 +1,34 @@
+{
+  "name": "vue-deep-methods",
+  "version": "1.0.0",
+  "description": "A Vue 3 composable for calling deep component methods without prop drilling",
+  "author": "Sovai KEAN",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sovai/vue-deep-methods.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sovai/vue-deep-methods/issues"
+  },
+  "homepage": "https://github.com/Sovai/vue-deep-methods#readme",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "composable",
+    "deep-components",
+    "vue-3"
+  ],
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0"
+  }
+}
