@@ -1,5 +1,14 @@
 # vue-deep-methods
 
+> ⚠️ **Note**  
+>Vue follows unidirectional data flow (data down, events up). Emitting events through deeply nested components can get messy.
+>
+>This approach doesn’t replace Vue’s patterns but offers an alternative for calling deep child methods without modifying every parent. It can also be handled using provide/inject or in the Pinia store.
+
+<br><br>
+
+
+
 **Vue 3 Composable for Deep Component Method Calls**
 
 `vue-deep-methods` allows calling methods on **deeply nested components** without **prop drilling or event chaining**. It provides a **clean and scalable** solution for Vue 3 applications.
